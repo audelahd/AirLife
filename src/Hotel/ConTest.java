@@ -19,8 +19,8 @@ public class ConTest {
 
 			conn = DriverManager.getConnection(
 					"jdbc:oracle:thin:@localhost:1521/XE", 
-					"gp_java", // 사용자아이디
-					"12345" // 사용자비번
+					"hh", // 사용자아이디
+					"1234" // 사용자비번
 			);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
